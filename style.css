@@ -8,15 +8,24 @@ h1{
 }
 #space{
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     border: 3px solid coral;
-    background-color: aqua;
+    background-color: rgb(139, 183, 183);
     margin: 20px auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .good{
-    height: 40vh;
-    width: 40vw;
-    border: solid 2px brown;
+    height: 30vh;
+    width: 20vw;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.good img{
+    height: 30vh;
+    width: 30vw;
+
 }
